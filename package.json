@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zmitton/ether-flipper/issues"
   },
-  "homepage": "https://github.com/zmitton/ether-flipper#readme"
+  "homepage": "https://github.com/zmitton/ether-flipper#readme",
+  "dependencies": {
+    "truffle": "^2.1.1"
+  }
 }
