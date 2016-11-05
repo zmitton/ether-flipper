@@ -18,5 +18,8 @@
   "homepage": "https://github.com/zmitton/ether-flipper#readme",
   "dependencies": {
     "truffle": "^2.1.1"
+  },
+  "devDependencies": {
+    "ethereumjs-testrpc": "^3.0.0"
   }
 }
