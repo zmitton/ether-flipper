@@ -1,0 +1,19 @@
+{
+  "name": "ether-flipper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmitton/ether-flipper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmitton/ether-flipper/issues"
+  },
+  "homepage": "https://github.com/zmitton/ether-flipper#readme"
+}
