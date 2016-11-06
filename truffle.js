@@ -19,3 +19,4 @@ module.exports = {
     "consensys": { network_id: 161 },
   },
 };
+//truffle migrate --network live
