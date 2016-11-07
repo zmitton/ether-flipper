@@ -4,6 +4,10 @@ module.exports = [
 		loader: 'truffle-solidity'
 	},
 	{
+		test: /\.json/,
+		loader: 'json'
+	},
+	{
 		test: /\.jsx?$/,
 		exclude: /(node_modules|bower_components|public)/,
 		loader: "babel"
