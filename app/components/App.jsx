@@ -1,8 +1,22 @@
 import React from 'react';
 import BigNumber from 'bignumber';
 import Flipper from '../../contracts/Flipper.sol';
+import styles from './../stylesheets/app.scss';
 
 import { refreshThings } from '../javascripts/app.js'
+
+const Web3 = require('web3');
+
+window.addEventListener('load', function() {
+  // Supports Metamask and Mist, and other wallets that provide 'web3'.
+  if (typeof web3 !== 'undefined') {
+    // Use the Mist/wallet provider.
+    window.web3 = new Web3(web3.currentProvider);
+  } else {
+    // No web3 detected. Show an error to the user or use Infura: https://infura.io/
+  }
+});
+
 
 Flipper.setProvider(window.web3.currentProvider);
 
@@ -40,7 +54,7 @@ Flipper.setProvider(window.web3.currentProvider);
 export default class App extends React.Component {
 
 
-  clickCreate() {
+  handleClickCreate() {
     const flipper = Flipper.deployed();
     // const amount = new BigNumber(document.getElementById("amount").value * 1e18).toString();
 

@@ -8,5 +8,6 @@ module.exports = {
     "morden": { network_id: 2 },
     "consensys": { network_id: 161 },
   },
+  migrations_directory: "./migrations",
 };
 //truffle migrate --network live
